@@ -1,0 +1,150 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    font-size: 16px;
+    padding: 50px 50px;
+    margin: 10px 2px;
+}
+
+.main-header {
+    font-size: 18px;
+    line-height: 2;
+    padding: 7px;
+}
+
+.main-header h1 {
+    color: #31b1b3;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 10px;
+    width: 300px;
+    border-right: 1px solid;
+    border-color: #a8b9b8;
+    height: 100%;
+   
+   
+}
+.nav-link {
+   
+    line-height: 2;
+        
+}
+
+#navbar a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #31b1b3;
+}
+
+
+.nav-list {
+   
+    padding: 20px;
+    min-width: 300px;
+    height: 100px;
+    list-style-type: none;
+   
+}
+
+.nav-list ul > li {
+    list-style-type: none;
+}
+
+.nav-list li {
+    position: relative;
+}
+
+
+.main-section header {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #b33331;
+}
+
+
+.main-doc {
+    padding-left: 300px;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.reference-header a {
+    color: #31b1b3;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+code {
+    background-color: #ecfefe;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    margin: 15px;
+    padding: 15px;
+    white-space: pre-line;
+}
+
+
+
+@media (max-width: 720px) {
+
+    .navbar {
+        position: fixed;
+        width: 220px;
+        font-size: 14px;
+        padding: 10px;
+        max-height: 350px;
+        border: none;
+        margin-top: 0;
+    }
+
+    .main-header {
+        text-align: center;
+        margin-bottom: -16px;
+    }
+
+    .main-doc {
+        white-space: pre-line;
+        padding-left: 200px;
+        padding-right: 30px;
+        display: block;
+        font-size: 14px;
+    }
+
+    .text-container {
+        padding-top: 1px;
+      
+    }
+
+    .main-section header {
+        margin-top: -99px;
+        margin-bottom: -44px;
+    }
+
+    code {
+       margin-bottom: -10px;
+       padding: 10px;
+       font-size: 12px;
+       white-space: pre-line;
+        display: block;
+    }
+}
+
+
+/* On regular sized devices laptops, desktops, the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user.
+
+*/
